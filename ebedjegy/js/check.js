@@ -32,7 +32,7 @@ navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } }).th
     video.srcObject = stream;
     video.setAttribute("playsinline", true); // required to tell iOS safari we don't want fullscreen
     video.play();
-    setInterval(tick,100);
+    setInterval(tick,25);
     //requestAnimationFrame(tick);
   });
 
