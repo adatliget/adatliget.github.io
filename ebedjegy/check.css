@@ -1,0 +1,31 @@
+body {
+    /* font-family: 'Ropa Sans',sans-serif; */
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 30px;
+  }
+
+.row {
+    text-align: center;
+    justify-content: center;
+}
+
+#canvas {
+    /* transform: scale(.6); */
+}
+
+.ok {
+    background-color: green;
+}
+
+.wrong {
+    background-color: red;
+}
+
+.used {
+    background-color: orange;
+}

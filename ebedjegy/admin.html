@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <title>Ebédjegy Adminisztrátor</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">          
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="admin.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row" id="daterow">
+            <div class="col-xs-6 dateline">
+                <select name="ev" id="ev">
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                </select>
+            </div>
+            <div class="col-xs-6 dateline">
+                <select name="honap" id="honap">
+                    <option value="1">Január</option>
+                    <option value="2">Február</option>
+                    <option value="3">Március</option>
+                    <option value="4">Április</option>
+                    <option value="5">Május</option>
+                    <option value="6">Június</option>
+                    <option value="7">Július</option>
+                    <option value="8">Augusztus</option>
+                    <option value="9">Szeptember</option>
+                    <option value="10">Október</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>                
+                </select>
+            </div>
+        </div>
+        <div class="row" id="naptar">
+            <table class="table table-sm col-xs-11 col-sm-10 col-md-8 col-lg-6 col-xl-4" id="naptable">
+                <thead class="thead-light">
+                    <tr class="week" id="daterow0">
+                        <th class="col-xs-1 dayhead" title="Hétfő" id="dhead1">H</th>
+                        <th class="col-xs-1 dayhead" title="Kedd" id="dhead2">K</th>
+                        <th class="col-xs-1 dayhead" title="Szerda" id="dhead3">Sz</th>
+                        <th class="col-xs-1 dayhead" title="Csütörtök" id="dhead4">Cs</th>
+                        <th class="col-xs-1 dayhead" title="Péntek" id="dhead5">P</th>
+                        <th class="col-xs-1 dayhead" title="Szombat" id="dhead6">Sz</th>
+                        <th class="col-xs-1 dayhead" title="Vasárnap" id="dhead7">V</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="week" id="daterow1">
+                        <td class="col-xs-1 day" id="day1"></td>
+                        <td class="col-xs-1 day" id="day2"></td>
+                        <td class="col-xs-1 day" id="day3"></td>
+                        <td class="col-xs-1 day" id="day4"></td>
+                        <td class="col-xs-1 day" id="day5"></td>
+                        <td class="col-xs-1 day" id="day6"></td>
+                        <td class="col-xs-1 day" id="day7"></td>
+                    </tr>
+                    <tr class="week" id="daterow2">
+                        <td class="col-xs-1 day" id="day8"></td>
+                        <td class="col-xs-1 day" id="day9"></td>
+                        <td class="col-xs-1 day" id="day10"></td>
+                        <td class="col-xs-1 day" id="day11"></td>
+                        <td class="col-xs-1 day" id="day12"></td>
+                        <td class="col-xs-1 day" id="day13"></td>
+                        <td class="col-xs-1 day" id="day14"></td>
+                    </tr>
+                    <tr class="week" id="daterow3">
+                        <td class="col-xs-1 day" id="day15"></td>
+                        <td class="col-xs-1 day" id="day16"></td>
+                        <td class="col-xs-1 day" id="day17"></td>
+                        <td class="col-xs-1 day" id="day18"></td>
+                        <td class="col-xs-1 day" id="day19"></td>
+                        <td class="col-xs-1 day" id="day20"></td>
+                        <td class="col-xs-1 day" id="day21"></td>
+                    </tr>
+                    <tr class="week" id="daterow4">
+                        <td class="col-xs-1 day" id="day22"></td>
+                        <td class="col-xs-1 day" id="day23"></td>
+                        <td class="col-xs-1 day" id="day24"></td>
+                        <td class="col-xs-1 day" id="day25"></td>
+                        <td class="col-xs-1 day" id="day26"></td>
+                        <td class="col-xs-1 day" id="day27"></td>
+                        <td class="col-xs-1 day" id="day28"></td>
+                    </tr>
+                    <tr class="week" id="daterow4">
+                        <td class="col-xs-1 day" id="day29"></td>
+                        <td class="col-xs-1 day" id="day30"></td>
+                        <td class="col-xs-1 day" id="day31"></td>
+                        <td class="col-xs-1 day" id="day32"></td>
+                        <td class="col-xs-1 day" id="day33"></td>
+                        <td class="col-xs-1 day" id="day34"></td>
+                        <td class="col-xs-1 day" id="day35"></td>
+                    </tr>
+                    <tr class="week" id="daterow5">
+                        <td class="col-xs-1 day" id="day36"></td>
+                        <td class="col-xs-1 day" id="day37"></td>
+                        <td class="col-xs-1 day" id="day38"></td>
+                        <td class="col-xs-1 day" id="day39"></td>
+                        <td class="col-xs-1 day" id="day40"></td>
+                        <td class="col-xs-1 day" id="day41"></td>
+                        <td class="col-xs-1 day" id="day42"></td>
+                    </tr>
+                </tbody>
+            </table>            
+        </div>
+        <div class="row" id="formdiv">          
+            <div class="col-xs-4 formline" id="codecol">
+                <form id="codeform">
+                    <input pattern="[0-9]{8}" size="8"  required title="8 számjegy karakter" id="usercode">
+                    <input type="submit" value="=>">
+                </form>
+            </div>
+            <div class="col-xs-4 formline" id="actcode">00000000</div>
+            <div class="col-xs-4 formline" id="defb">
+                <button id="defload" disabled>Alaptöltés</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/admin.js"></script>
+  </body>
+</html>

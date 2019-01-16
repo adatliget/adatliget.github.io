@@ -1,0 +1,35 @@
+ 
+.row {
+    justify-content: center;
+}
+
+.dateline, .formline {
+    padding: 10px;
+}
+
+table {
+    text-align: center;
+    width: 75%;
+}
+
+td:hover {
+    transform: scale(1.2);
+}
+
+#codecol {
+    justify-content:  center;
+}
+
+.dayset {
+    background-color: rgb(253, 231, 105);
+}
+
+.daydef {
+    font-weight: bold;
+}
+
+#actcode {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
